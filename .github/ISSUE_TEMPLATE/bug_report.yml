@@ -1,0 +1,59 @@
+name: Bug report
+description: Something isn't working as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please don't include access tokens, secrets, or customer data.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead?
+      placeholder: When I import a CSV with semicolons, the preview shows 0 changes…
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Click Scan Products
+        2. Select 3 rows
+        3. Click Set % of price
+        4. …
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the app?
+      options:
+        - Scan / table
+        - Saving costs
+        - Bulk update
+        - CSV import / export
+        - Filters / search / sort
+        - Low-margin warning
+        - Dashboard
+        - Install / setup / deploy
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: currency
+    attributes:
+      label: Store currency
+      placeholder: USD, INR, JPY…
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: Chrome 140 on macOS
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots or error messages
+      description: Paste error text from the page or the terminal, or drag in screenshots.

@@ -181,7 +181,7 @@ Issues and pull requests are welcome. Ideas on the roadmap:
 - Shipping, packaging and payment fees in margin calculations
 - Translations
 
-Before you open a PR, run `npm run typecheck && npm run lint && npm run build`.
+Read the [contributing guide](CONTRIBUTING.md) to get started, and please follow the [Code of Conduct](CODE_OF_CONDUCT.md). Found a security issue? See [SECURITY.md](SECURITY.md) and report it privately.
 
 ## Support
 

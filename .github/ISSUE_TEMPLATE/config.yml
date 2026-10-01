@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security issue privately
+    url: https://github.com/Sachinsagarmishra/costcheck_shopify_app/security/advisories/new
+    about: Please don't report security problems in public issues.
+  - name: Email support
+    url: mailto:hi@sachindesign.com
+    about: Questions about using CostCheck on your store.
